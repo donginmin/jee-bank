@@ -24,7 +24,6 @@
 	
 </div>
 <script>
-<script>
 $('#btn').click(function(){
 	alert('버튼 클릭 !!');
 	location.assign('<%=request.getContextPath()%>/customer.do?page=login');
